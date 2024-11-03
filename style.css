@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Unlock", serif;
+}
+
+body {
+    background: url("./assents/[GIFS]\ OS\ MELHORES\ DE\ TODOS\ OS\ TEMPOS\ –\ Parte\ 1.gif");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.conteiner {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #C0C0C0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.botao {
+    margin: 30px 0;
+    display: flex;
+    gap: 30px;
+
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+#rock {
+    background-color: rgb(22, 172, 60);
+}
+
+#paper {
+
+    background-color: rgb(251, 255, 0);
+
+}
+
+#scissors {
+    background-color: rgb(226, 43, 43);
+
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+.your-score span {
+    color: rgb(255, 94, 0);
+}
+
+.machine-score span {
+    color: blueviolet;
+}
+
+.result {
+    font-size: 20px;
+    color: red;
+}
